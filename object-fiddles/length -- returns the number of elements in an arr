@@ -1,0 +1,33 @@
+length -- returns the number of elements in an array 
+
+push -- if you want to add something to an array
+	list.push("eric") ** It only takes in one argument at a time - returns new number of elements
+
+pop -- removes an element from the end of the array : list.pop() - returns removed element
+		takes no arguments just need parenthesis. 
+
+shift -- removes the first element in an array. returns removed element
+
+unshift -- adds element back in to the front of the array, returns new number of elements
+
+split -- is a method for strings. 
+    string. split will return an array version of your string "D" "A" "N" instead of dan. 
+    you cant change a string once youve made it. takes it the split point, returns array version of string. 
+
+join -- is the opposite of split. It takes in a string, joins all the elements in the arry then returns the string of elements separated by argument
+
+				sentArray.join("") "Awscrewitletsthrowitout"
+				sentArray.join(" ") "Aw screw it lets throw it out"
+
+splice -- is the way to remove things from an array always and forever amen. 
+
+
+slice -- returns new array. so however you use slice (like the arguments and stuff you pass into it). makes a copy of the array that has noting to do with the original array - it can take arguments as well. This new array is seperate in the memory. 
+
+	arr.slice([begin[, end]])
+in brackets all brackets are optional, i can call begin without the smaller square bracket. THIS IS JUST MDN STYLE YOU DONT NEED SQUARE BRACKETS AT ALL)
+
+*returns new array, takes two arugments, first is starting point, second is ending point of new array. 
+
+reverse -- reverses the order of an array
+indexOf -- returns index of first occurence of argument else returns negative one
